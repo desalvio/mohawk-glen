@@ -1,0 +1,37 @@
+/* Header */
+#premium-navigation .navbar-nav > li:last-child > a {border-radius: 4px;}
+#premium-navigation {background-color: #fff;}
+
+@media (min-width: 1025px) {
+    #premium-navigation .navbar-nav .dropdown-menu {background: #111;  border-radius: 0; margin-top: 0;}
+    #premium-navigation .navbar-nav .dropdown-menu > li {border-bottom: 1px solid #333; margin: 0}
+    #premium-navigation .navbar-nav .dropdown-menu > li:hover {background-color: #222;}
+    #premium-navigation .navbar-nav .dropdown-menu > li:last-child {border-bottom: 0;}
+    #premium-navigation .navbar-nav .dropdown-menu > li > a {padding: 12px 18px; color: #aaa; font-size: 16px;}
+    #premium-navigation .navbar-nav .dropdown-menu > li > a:hover, #premium-navigation .navbar-nav .dropdown-menu > li > a:focus {color: #fff; border-radius: 0;}
+    #premium-navigation .container {display: flex; justify-content: space-between; align-items: center;}
+            
+}
+
+@media (max-width: 1024px) {
+ .header-phone {position: absolute; right: 100px;  top: 35px;}
+ .header-phone2 {position: absolute; right: 100px;  top: 25px;}
+}
+
+
+@media (max-width: 768px) {
+        .header-phone {right: 80px;}
+    }
+
+/*footer-4n*/
+#footer-4n {background: #c6c6c6;}
+
+/* Remove last child styling in navigation */
+#premium-navigation .navbar-nav ul {margin-right: 10px;}
+#premium-navigation .navbar-nav > li:last-child > a {padding: 15px; border: 0px;}
+#premium-navigation .navbar-nav li:last-child>a:hover, #premium-navigation .navbar-nav > li:last-child > a:focus {padding: 15px; border: none; background-color: transparent!important;}
+@media (min-width: 1024px) and (max-width: 1100px) {
+#premium-navigation .navbar-nav > li > a {font-size: 13px;}
+}
+#premium-navigation .navbar-nav > li:last-child > a:hover {background-color: transparent !important; color: #737373 !important;}
+
