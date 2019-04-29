@@ -1,6 +1,7 @@
 /* Header */
 #premium-navigation .navbar-nav > li:last-child > a {border-radius: 4px;}
 #premium-navigation {background-color: #fff;}
+#premium-navigation .navbar-nav > li > a {color: #174d29;}
 
 @media (min-width: 1025px) {
     #premium-navigation .navbar-nav .dropdown-menu {background: #111;  border-radius: 0; margin-top: 0;}
