@@ -1,3 +1,8 @@
+/*Link styling*/
+a {
+    color: #406e35 !important;
+}
+
 /* Header */
 #premium-navigation .navbar-nav > li:last-child > a {border-radius: 4px;}
 #premium-navigation {background-color: #fff;}
